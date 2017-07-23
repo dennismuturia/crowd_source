@@ -1,1 +1,12 @@
-{{outlet}}
+<div class="container-fluid">
+  <div class="row">
+    <div class="jumbotron">
+      <h1>Add New Items</h1>
+    </div>
+
+    {{new-company saveCompany2="saveCompany3"}}
+  </div>
+</div>
+{{#each model.company as |company|}}
+  {{company-tile company=company}}
+{{/each}}

@@ -1,0 +1,29 @@
+{{#if addNewCompany}}
+<h1>New Rental</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input value=name id="name" class="form-control"}}
+    </div>
+
+    <div class="form-group">
+      <label for="type">Type</label>
+      {{input value=type id="type" class="form-control"}}
+    </div>
+
+    <div class="form-group">
+      <label for="image">Image url</label>
+      {{input value=image id="image" class="form-control"}}
+    </div>
+
+    <div class="form-group">
+      <label for="content">Content</label>
+      {{input value=content id="content" class="form-control"}}
+    </div>
+    <button {{action 'saveCompany1'}} class="btn btn-success">Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'companyFormShow'}} class="btn btn-default">New Company</button>
+{{/if}}
