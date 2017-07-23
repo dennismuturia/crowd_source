@@ -7,3 +7,9 @@
 <div class="col-md-4">
   <h6>{{company.content}}</h6>
 </div>
+<h2> Reviews </h2>
+<ul>
+  {{#each company.reviews as |review|}}
+    {{review-tile review=review}}
+  {{/each}}
+</ul>
