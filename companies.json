@@ -1,0 +1,35 @@
+{ "companies": [{
+    "name": "call of duty",
+    "type": "Estate",
+    "image": "https://i.ytimg.com/vi/c5rz1pnoNTc/maxresdefault.jpg",
+    "content": "I am a game"
+  }, {
+    "name": "Battlefield",
+    "type": "Estate",
+    "image": "https://i.ytimg.com/vi/DkIwY92tGMI/maxresdefault.jpg",
+    "content": "I am a game"
+  }, {
+    "name": "Assassins creed",
+    "type": "Estate",
+    "image": "https://i.ytimg.com/vi/Q6b9VP9ydEw/maxresdefault.jpg",
+    "content": "I am a game"
+  },
+  {
+    "name": "Titan fall",
+    "type": "Estate",
+    "image": "https://i.ytimg.com/vi/FYmUZG00sdE/maxresdefault.jpg",
+    "content": "I am a game"
+  },
+  {
+    "name": "Fifa",
+    "type": "Estate",
+    "image": "http://gameranx.com/wp-content/uploads/2016/06/FIFA-17-1080P-Wallpaper..jpg",
+    "content": "I am a game"
+  },
+  {
+    "name": "Far cry",
+    "type": "Estate",
+    "image": "https://wallpaperscraft.com/image/far_cry_primal_2016_inscription_107130_1920x1080.jpg",
+    "content": "I am a game"
+  }]
+}
