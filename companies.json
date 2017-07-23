@@ -31,5 +31,28 @@
     "type": "Estate",
     "image": "https://wallpaperscraft.com/image/far_cry_primal_2016_inscription_107130_1920x1080.jpg",
     "content": "I am a game"
+  }],
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+  },
+  {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+  },
+  {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+  },{
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
   }]
 }

@@ -2,5 +2,9 @@
   <img src="assets/images/car.jpg" class="head">
 </div>
 {{#each model as |company|}}
-{{company-tile company=company}}
+  {{company-tile company=company}}
+{{/each}}
+
+{{#each model.reviews as |review|}}
+  <p>{{review.rating}} - {{review.content}} - by {{review.author}}</p>
 {{/each}}
